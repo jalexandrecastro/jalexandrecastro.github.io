@@ -1,0 +1,241 @@
+body {
+  font-family: "Ubuntu";
+}
+
+h1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#titulo-secao {
+  text-align: center;
+  padding: 10em 15em 2em 15em;
+  margin: auto;
+  width: 85%;
+}
+
+#subtitulo-secao {
+  text-align: center;
+  padding: 0em 15em 10em 15em;
+  margin: auto;
+  width: 65%;
+}
+
+#descricao {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  text-align: center;
+  /* padding: 3em 10em 2em 10em; */
+  margin: auto;
+  width: 80%;
+}
+
+.descricao-texto {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#video {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  text-align: center;
+  padding: 2em 15em 0em 15em;
+  margin: auto;
+  width: 80%;
+}
+
+#sobre {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5em 15em 5em 15em;
+  margin: auto;
+}
+
+#team {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 3em 10em 5em 10em;
+  margin: auto;
+}
+
+#localizacao {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding: 5em 15em 2em 15em;
+  margin: auto;
+  width: 80%;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+img {
+  border-radius: 2%;
+}
+
+.sobre-texto {
+  color: black;
+  text-align: start;
+}
+
+/* unvisited link */
+a.sobre-link:link {
+  color: black;
+}
+
+/* visited link */
+a.sobre-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+a.sobre-link:hover {
+  color: black;
+}
+
+/* selected link */
+a.sobre-link:active {
+  color: black;
+}
+
+/* unvisited link */
+a.financiamento-link:link {
+  color: white;
+}
+
+/* visited link */
+a.financiamento-link:visited {
+  color: white;
+}
+
+/* mouse over link */
+a.financiamento-link:hover {
+  color: white;
+}
+
+/* selected link */
+a.financiamento-link:active {
+  color: white;
+}
+
+#title-navbar {
+  background-color: rgb(34, 34, 34);
+  color: #ffffff;
+  padding: 1%;
+}
+
+#financiamento {
+  background-color: rgb(28, 35, 64);
+  color: white;
+  text-align: start;
+  padding: 5em 15em 5em 15em;
+  margin: auto;
+}
+
+.financiamento-texto {
+  color: white;
+}
+
+#title {
+  background-color: rgb(34, 34, 34);
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../images/background_city.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+li.sobre-link {
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+li.fincanciamento-link {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+/* Features Section  */
+#features,
+#location {
+  background-color: rgb(34, 34, 34);
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  padding: 5em 15em 5em 15em;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+@media (max-width: 1700px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
