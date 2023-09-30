@@ -5,35 +5,35 @@ body {
 h1 {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 450%;
   line-height: 1.2;
 }
 
 h2 {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 300%;
   line-height: 1.2;
 }
 
 h3 {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 200%;
   line-height: 1.5;
 }
 
 h4 {
   font-family: Ubuntu, sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 120%;
   line-height: 1.5;
 }
 
 h5 {
   font-family: Ubuntu, sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 100%;
   line-height: 1.5;
 }
 
@@ -62,7 +62,7 @@ h5 {
 .descricao-texto {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 200%;
   line-height: 1.2;
 }
 
@@ -186,7 +186,7 @@ li.sobre-link {
   color: black;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 120%;
   line-height: 1.5;
 }
 
@@ -194,7 +194,7 @@ li.fincanciamento-link {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 120%;
   line-height: 1.5;
 }
 
@@ -225,7 +225,7 @@ li.fincanciamento-link {
   color: #ffffff;
   position: relative;
   z-index: 1;
-  padding: 2% 20% 5% 20%;
+  padding: 2% 5% 5% 5%;
 }
 
 .feature-box {
