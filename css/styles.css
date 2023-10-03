@@ -1,58 +1,56 @@
 html {
-  /* font-size: 16px; */
+  font-size: 16px;
 }
 
 body {
   font-family: "Ubuntu";
 }
 
-h1 {
+h1.text {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  /* font-size: 5rem; */
+  font-size: 5rem;
   line-height: 1.2;
 }
 
-h2 {
+h2.text {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  /* font-size: 3rem; */
+  font-size: 3rem;
   line-height: 1.2;
 }
 
-h3 {
+h3.text {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  /* font-size: 2rem; */
+  font-size: 2rem;
   line-height: 1.5;
 }
 
-h4 {
+h4.text {
   font-family: Ubuntu, sans-serif;
   font-weight: 500;
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
-h5 {
+h5.text {
   font-family: Ubuntu, sans-serif;
   font-weight: 400;
-  /* font-size: 1rem; */
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 #titulo-secao {
   text-align: center;
-  padding: 10% 0% 2% 0%;
+  padding: 10% 15% 2% 15%;
   margin: auto;
-  width: 85%;
 }
 
 #subtitulo-secao {
   text-align: center;
-  padding-bottom: 10%;
+  padding: 0% 15% 5% 15%;
   margin: auto;
-  width: 90%;
 }
 
 #descricao {
@@ -66,7 +64,7 @@ h5 {
 .descricao-texto {
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
-  /* font-size: 200%; */
+  font-size: 200%;
   line-height: 1.2;
 }
 
@@ -76,7 +74,6 @@ h5 {
   text-align: center;
   padding: 5% 10% 5% 10%;
   margin: auto;
-  width: 100%;
 }
 
 #about {
@@ -95,12 +92,10 @@ h5 {
   margin: auto;
 }
 
-#localizacao {
+.localizacao {
   background-color: rgb(34, 34, 34);
   color: white;
   padding: 5% 15% 2% 15%;
-  margin: auto;
-  width: 80%;
 }
 
 .youtube-video {
@@ -123,42 +118,34 @@ img {
   text-align: start;
 }
 
-/* unvisited link */
 a.sobre-link:link {
   color: black;
 }
 
-/* visited link */
 a.sobre-link:visited {
   color: black;
 }
 
-/* mouse over link */
 a.sobre-link:hover {
   color: black;
 }
 
-/* selected link */
 a.sobre-link:active {
   color: black;
 }
 
-/* unvisited link */
 a.financiamento-link:link {
   color: white;
 }
 
-/* visited link */
 a.financiamento-link:visited {
   color: white;
 }
 
-/* mouse over link */
 a.financiamento-link:hover {
   color: white;
 }
 
-/* selected link */
 a.financiamento-link:active {
   color: white;
 }
@@ -195,7 +182,7 @@ li.sobre-link {
   color: black;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  /* font-size: 120%; */
+  font-size: 120%;
   line-height: 1.5;
 }
 
@@ -203,7 +190,7 @@ li.fincanciamento-link {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  /* font-size: 120%; */
+  font-size: 120%;
   line-height: 1.5;
 }
 
@@ -214,7 +201,7 @@ li.fincanciamento-link {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  /* font-size: 2.5rem; */
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -224,7 +211,7 @@ li.fincanciamento-link {
 
 .nav-link {
   font-family: "Ubuntu";
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
 }
 
 /* Features Section  */
@@ -234,7 +221,6 @@ li.fincanciamento-link {
   color: #ffffff;
   position: relative;
   z-index: 1;
-  padding: 2% 5% 5% 5%;
 }
 
 .feature-box {
@@ -246,7 +232,7 @@ li.fincanciamento-link {
   h5 {
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
-    /* font-size: 1rem; */
+    font-size: 1rem;
     line-height: 1.5;
   }
 }
