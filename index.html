@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/bootstrap.js"></script>
+
   </head>
 
   <body>
@@ -60,7 +61,7 @@
     <section id="title">
       <div class="container-fluid">
         <div id="titulo-secao">
-          <h1 class="text">IFCE-RICE-SENAI 100K PROGRAM</h1>
+          <h1 class="text display-1">IFCE-RICE-SENAI 100K PROGRAM</h1>
         </div>
         <div id="subtitulo-secao">
           <h3 class="text">
@@ -122,6 +123,15 @@
               US-Brazilcollaboration between the following institutions:
             </h5>
             <ul>
+                <li class="sobre-link">
+                    <a
+                      class="sobre-link"
+                      href="https://www.rice.edu/"
+                      target="_blank"
+                    >
+                      <h5 class="text">Rice University(Rice)</h5>
+                    </a>
+                  </li>
               <li class="sobre-link">
                 <a
                   class="sobre-link"
@@ -133,16 +143,7 @@
                     (IFCE)
                   </h5>
                 </a>
-              </li>
-              <li class="sobre-link">
-                <a
-                  class="sobre-link"
-                  href="https://www.rice.edu/"
-                  target="_blank"
-                >
-                  <h5 class="text">Rice University(Rice)</h5>
-                </a>
-              </li>
+            </li>
               <li class="sobre-link">
                 <a
                   class="sobre-link"
@@ -165,7 +166,7 @@
           <div class="financiamento-texto col-xxl-6">
             <h2 class="text">Funding</h2>
             <h5 class="text">
-              This program is one of the winners of the&nbsp;<a
+              This program is one of the winners of the <a
                 class="financiamento-link"
                 href="https://www.100kstrongamericas.org/category/grant-recipients/the-2021-u-s-brazil-innovation-fund-grant-competition/"
                 target="_blank"
@@ -174,13 +175,13 @@
               >, which is supported by:
             </h5 class="text">
             <ul>
+                <li class="fincanciamento-link">
+                    <h5 class="text">The United States Department of State</h5>
+                  </li>
               <li class="fincanciamento-link">
                 <h5 class="text">
                   Brazil’s National Service of Industrial Training (SENAI)
                 </h5>
-              </li>
-              <li class="fincanciamento-link">
-                <h5 class="text">The United States Department of State</h5>
               </li>
               <li class="fincanciamento-link">
                 <h5 class="text">The Partner of the Americas</h5>
@@ -234,10 +235,35 @@
           <div class="row">
             <div class="col-xxl-6">
               <h2 class="text" style="margin-bottom: 1em">Location</h2>
-              <h3 class="text">6100 Main St, Houston, TX 77005, Estados Unidosl</h3>
+              <dl>
+                <dt class="fincanciamento-link">
+                    <a class="financiamento-link" href="#location"><h5 onclick="map('rice')">Rice University(Rice)</h5></a>
+                </dt>
+                <dd>
+                    Av. Treze de Maio, 2081 - Benfica, Fortaleza - CE, 60040-531
+                </dd>
+                <dt class="fincanciamento-link">
+                    <a class="financiamento-link" href="#location"><h5  onclick="map('ifce')">
+                    Instituto Federal Educação, Ciência e Tecnologia do Ceará
+                    (IFCE)
+                  </h5>
+                </a>
+            </dt>
+            <dd>
+                Av. Treze de Maio, 2081 - Benfica, Fortaleza - CE, 60040-531
+            </dd>
+                <dt class="fincanciamento-link">
+                    <a class="financiamento-link" href="#location"><h5 onclick="map('senai')">Instituto SENAI de Inovação de Recife (SENAI)</h5>
+                    </a>
+                </dt>
+                <dd>
+                    Av. Treze de Maio, 2081 - Benfica, Fortaleza - CE, 60040-531
+                </dd>
+              </dl>
             </div>
             <div class="col-xxl-6">
               <iframe
+                id="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.0814878120104!2d-95.4044061238478!3d29.71739873399093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c064b7f18e1f%3A0xe2cd9cf065c43eb5!2sUniversidade%20Rice!5e0!3m2!1spt-BR!2sbr!4v1695953796657!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="300px"
@@ -252,14 +278,21 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-
-    <footer id="footer">
-      <i class="fa-footer fa-brands fa-twitter"></i>
-      <i class="fa-footer fa-brands fa-facebook-f"></i>
-      <i class="fa-footer fa-brands fa-instagram"></i>
-      <i class="fa-footer fa-solid fa-envelope"></i>
-    </footer>
   </body>
+
+  <script>
+
+    function map(location){
+        if(location == 'rice'){
+            document.getElementById("map").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.0814878120104!2d-95.4044061238478!3d29.71739873399093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c064b7f18e1f%3A0xe2cd9cf065c43eb5!2sUniversidade%20Rice!5e0!3m2!1spt-BR!2sbr!4v1695953796657!5m2!1spt-BR!2sbr")
+        }
+        if (location == 'ifce') {
+            document.getElementById("map").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3014478912833!2d-38.54081623256207!3d-3.7443671607187836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7491a5cfc50e5%3A0x35b7fad8eb59ba84!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Cear%C3%A1%20-%20Campus%20Fortaleza!5e0!3m2!1spt-BR!2sbr!4v1696362846528!5m2!1spt-BR!2sbr")
+        }
+        if(location == 'senai'){
+            document.getElementById("map").setAttribute("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15802.130942380973!2d-34.878083!3d-8.0470126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab188e16195803%3A0xf4b1fa041081c943!2sInstituto%20SENAI%20de%20Inova%C3%A7%C3%A3o%20para%20Tecnologias%20da%20Informa%C3%A7%C3%A3o%20e%20Comunica%C3%A7%C3%A3o%20(ISI-TICs)!5e0!3m2!1spt-BR!2sbr!4v1696362915224!5m2!1spt-BR!2sbr");
+        }
+    }
+
+  </script>
 </html>
