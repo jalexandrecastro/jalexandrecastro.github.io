@@ -69,6 +69,14 @@ h5.text {
 #team {
   background-color: white;
   color: black;
+  /* text-align: center; */
+  padding: 3% 10% 5% 10%;
+  margin: auto;
+}
+
+#news {
+  background-color: white;
+  color: black;
   text-align: center;
   padding: 3% 10% 5% 10%;
   margin: auto;
@@ -91,8 +99,17 @@ img {
   width: 100%;
 }
 
+#projects {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  text-align: start;
+  padding: 5% 10% 5% 10%;
+  margin: auto;
+}
+
 #sobre-imagem {
-  padding: 0% 5% 0% 5%;
+  /* padding: 2% 0% 2% 0%; */
+  /* width: 50rem; */
 }
 
 .sobre-texto {
@@ -100,11 +117,19 @@ img {
   text-align: start;
 }
 
+a.pessoa-link:link,
+a.pessoa-link:visited,
+a.pessoa-link:hover,
+a.pessoa-link:active {
+  color: black;
+}
+
 a.sobre-link:link,
 a.sobre-link:visited,
 a.sobre-link:hover,
 a.sobre-link:active {
   color: black;
+  font-size: 1.2rem;
 }
 
 a.financiamento-link:link,
@@ -145,8 +170,6 @@ a.financiamento-link:active {
 li.sobre-link {
   color: black;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-size: 120%;
   line-height: 1.5;
 }
 
